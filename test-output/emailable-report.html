@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">347,983</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">Resources.BDMClass</td><td><a href="#m0">addMeetingForPotential</a></td><td rowspan="1">1709817438704</td><td rowspan="1">23992</td></tr><tr class="failedeven"><td><a href="#m1">convertToClient</a></td><td rowspan="1">1709817463555</td><td rowspan="1">34212</td></tr><tr class="failedeven"><td><a href="#m2">getLogout</a></td><td rowspan="1">1709817498501</td><td rowspan="1">32268</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Resources.BDEClass</td><td><a href="#m3">addLeadComapnyDeatail</a></td><td rowspan="1">1709817197009</td><td rowspan="1">76106</td></tr><tr class="passedeven"><td><a href="#m4">addMeetingForProspect</a></td><td rowspan="1">1709817312440</td><td rowspan="1">17073</td></tr><tr class="passedeven"><td><a href="#m5">getLogin</a></td><td rowspan="1">1709817184245</td><td rowspan="1">12733</td></tr><tr class="passedeven"><td><a href="#m6">getLogout</a></td><td rowspan="1">1709817388673</td><td rowspan="1">6487</td></tr><tr class="passedeven"><td><a href="#m7">productDetails</a></td><td rowspan="1">1709817273122</td><td rowspan="1">39307</td></tr><tr class="passedeven"><td><a href="#m8">prospect</a></td><td rowspan="1">1709817329531</td><td rowspan="1">31840</td></tr><tr class="passedeven"><td><a href="#m9">todaysFollowup</a></td><td rowspan="1">1709817361379</td><td rowspan="1">27280</td></tr><tr class="passedodd"><td rowspan="2">Resources.BDMClass</td><td><a href="#m10">getLogin</a></td><td rowspan="1">1709817395169</td><td rowspan="1">12916</td></tr><tr class="passedodd"><td><a href="#m11">potentialConversionRequestAccept</a></td><td rowspan="1">1709817408091</td><td rowspan="1">30611</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Resources.BDMClass#addMeetingForPotential</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: //android.widget.ImageButton[@resource-id=&quot;com.ssi.agroworlds:id/createMeetingFab&quot;]&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e5ca825d-ac85-4750-b312-90691c42b51b, isElementSelected {id=00000000-0000-20b6-ffff-ffff00000d57}]
+Capabilities {appium:appActivity: com.ssi.agroworlds.view.ui...., appium:appPackage: com.ssi.agroworlds, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.ssi.agroworlds.view.ui...., appPackage: com.ssi.agroworlds, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: vivo Y36, platformName: ANDROID, platformVersion: 13, udid: 10BDB70PG4000XX}, appium:deviceApiLevel: 33, appium:deviceManufacturer: vivo, appium:deviceModel: V2247, appium:deviceName: 10BDB70PG4000XX, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2388, appium:deviceUDID: 10BDB70PG4000XX, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 99, appium:takesScreenshot: true, appium:udid: 10BDB70PG4000XX, appium:viewportRect: {height: 2103, left: 0, top: 99, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (e5ca825d-ac85-4750-b312-90691c42b51b)] -&gt; xpath: //android.widget.ImageButton[@resource-id=&quot;com.ssi.agroworlds:id/createMeetingFab&quot;]]
+Session ID: e5ca825d-ac85-4750-b312-90691c42b51b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:172)
+	at utility.Utility.isElementClickable(Utility.java:273)
+	at Resources.BDMClass.addMeetingForPotential(BDMClass.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Resources.BDMClass#convertToClient</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e5ca825d-ac85-4750-b312-90691c42b51b, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;Potentials&quot;).instance(0))}]
+Capabilities {appium:appActivity: com.ssi.agroworlds.view.ui...., appium:appPackage: com.ssi.agroworlds, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.ssi.agroworlds.view.ui...., appPackage: com.ssi.agroworlds, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: vivo Y36, platformName: ANDROID, platformVersion: 13, udid: 10BDB70PG4000XX}, appium:deviceApiLevel: 33, appium:deviceManufacturer: vivo, appium:deviceModel: V2247, appium:deviceName: 10BDB70PG4000XX, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2388, appium:deviceUDID: 10BDB70PG4000XX, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 99, appium:takesScreenshot: true, appium:udid: 10BDB70PG4000XX, appium:viewportRect: {height: 2103, left: 0, top: 99, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e5ca825d-ac85-4750-b312-90691c42b51b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at Resources.BDMClass.convertToClient(BDMClass.java:241)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Resources.BDMClass#getLogout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e5ca825d-ac85-4750-b312-90691c42b51b, findElement {using=xpath, value=//android.widget.ImageView[@resource-id=&quot;com.ssi.agroworlds:id/menuOption&quot;]}]
+Capabilities {appium:appActivity: com.ssi.agroworlds.view.ui...., appium:appPackage: com.ssi.agroworlds, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.ssi.agroworlds.view.ui...., appPackage: com.ssi.agroworlds, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: vivo Y36, platformName: ANDROID, platformVersion: 13, udid: 10BDB70PG4000XX}, appium:deviceApiLevel: 33, appium:deviceManufacturer: vivo, appium:deviceModel: V2247, appium:deviceName: 10BDB70PG4000XX, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2388, appium:deviceUDID: 10BDB70PG4000XX, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 99, appium:takesScreenshot: true, appium:udid: 10BDB70PG4000XX, appium:viewportRect: {height: 2103, left: 0, top: 99, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e5ca825d-ac85-4750-b312-90691c42b51b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at utility.Utility.logout(Utility.java:350)
+	at Resources.BDMClass.getLogout(BDMClass.java:279)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Resources.BDEClass#addLeadComapnyDeatail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Resources.BDEClass#addMeetingForProspect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Resources.BDEClass#getLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Resources.BDEClass#getLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Resources.BDEClass#productDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Resources.BDEClass#prospect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Resources.BDEClass#todaysFollowup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Resources.BDMClass#getLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Resources.BDMClass#potentialConversionRequestAccept</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
